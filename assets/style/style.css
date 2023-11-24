@@ -187,8 +187,7 @@ nav{
     height: 50px;
     width: 50px;
     margin-left: auto;
-    position: relative;
-    
+    position: relative;    
 }
 .ham-menu span{
     height: 5px;
@@ -235,7 +234,8 @@ nav{
     height: 700px;
 }
 .style-hero{
-    margin: 2rem;
+    max-width: 90%;
+    margin-left: 5%;
 }
 .hero-row{
     display: flex;
@@ -270,6 +270,10 @@ nav{
 .image-2, .image-3{
     display: none;
 }
+
+
+/* -------------------- SECTION OFFER ---------------------- */
+
 
 .offer{
     display: flex;
