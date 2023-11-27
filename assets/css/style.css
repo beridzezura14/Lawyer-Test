@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.section-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1166px;
+    margin: auto;
+    height: 49px;
+    padding-top: 31px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .navbar{
+
+} */
+.navbar a{
+    color: #2F3A3B;
+    font-size: 16px;
+    margin-right: 25px;
+}
+.bold{
+    color:#2F3A3B;
+    font-weight: bold;
+}
+.navbar a:last-child{
+    margin-right: 0px;
+}
+
+.sign a{
+    font-size: 16px;
+    color: #494949;
+    margin-right: 16px;
+}
+.sign a:last-child{
+    margin-right: 0px;
+    border: 2px solid #003478;
+    padding: 10px 15px;
+}
+
+
+/* ----------------------- hero section -------------------------------- */
+
+.hero-row{
+    max-width: 1166px;
+    margin: auto;
+}
+.hero-image{
+    position: absolute;
+    right: 0;
+}
+.lines{
+    height: 64px;
+    width: 100%;
+    background-color: #303231;
+    margin-top: 257px;
+    position: absolute;
+    z-index: -111;
+
+}
+.lines-2{
+    height: 66px;
+    margin-top: 340px;
+}
+.hero-row h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 60px;
+    font-size: 72px;
+    color: #003478;
+}
+.hero-row h1 span{
+    color: #FBAA0C;
+}
+.hero-row h2{
+   margin-top: 30px;
+   font-size: 50px;
+   color:#FFFFFF;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-row h2 span{
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons a:first-child{
+    padding: 20px 40px;
+    color:#FFFFFF;
+    background-color:#003478;
+    margin-right: 30px;
+}
+.play-video{
+    display: flex;
+    align-items: center;
+
+}
+.play-video ion-icon{
+    padding: 15px;
+    border-radius: 50%;
+    color:#FFFFFF;
+    background-color: #003478;
+    font-weight: bold;
+}
+.play-video a{
+    margin-left: 20px;
+    color: #28344A;
+}
+/* ------------------------- order section ------------------------------ */
+
+.order{
+    margin-top: 170px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #303231;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    color: #303231;
+}
+.order-row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: auto;
+    padding: 60px 0;
+}
+.row{
+    text-align: center;
+}
+.number-1, .number-2, .number-3{
+    display: inline;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color:#5046C7;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+.number-2{
+    background-color:#FF6645;
+}
+.number-3{
+    background-color:#81D9F8;
+}
+.row h5{
+    margin-top: 40px;
+    font-size: 18px;
+    color:#233443;
+}
+.row p{
+    font-size: 18px;
+    margin: 30px 0;
+    padding: 0 20px;
+}
+.row a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6645;
+}
+.row a ion-icon{
+    padding-left: 7px;
+}
+.row-middle{
+    border-left: 1px solid#dcdcdc;
+    border-right: 1px solid#dcdcdc;
+}
+.order-button{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.order-button a:first-child{
+    padding: 15px 20px;
+    background-color: #003478;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.order-button a:last-child{
+    margin-top: 20px;
+    font-size: 18px;
+    color:#0276B3;
+    text-decoration: underline;
+}
+
+.price-and-more{
+    max-width: 1167px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+
+}
+.price-and-more div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 275px;
+    height: 142px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #233443;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.price-and-more div h6{
+    font-size: 18px;
+}
+.price-and-more div p{
+    font-size: 52px;
+}
+
+
+/* ---------------- mattor section -------------------- */
+
+
+.mattor{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4rem 0;
+}
+
+.mattor-describe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1166px;
+    margin: auto;
+    padding-top: 4rem;
+}
+.mattor-text{
+    color: #303231;
+}
+
+.mattor-text h5{
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+.mattor-text p{
+    width: 490px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.notes p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+/* --------------------------------- slideshow --------------------------------------------- */
+
+.slideshow{
+    margin: 4rem 0;
+    width: 100%;
+    height: 874px;
+    background-color: #303231;
+}
+
+.slideshow h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-photo{
+    position: absolute;
+    right: 0;
+}
+
+.mySlides {display: none}
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 120px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px 19px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev{
+    left: -80px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: -70px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    margin: 0 25px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.shown{
+    height: 400px;
+}
+
+
+
+/* -------------------------- learn more --------------------------------- */
+
+.learn-more-text, .footer-text{
+    max-width: 1166px;
+    margin: auto;
+    padding-top: 130px;
+    color: #303231;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.learn-more-text h2, .footer-text h2{
+    font-size: 36px;
+    margin-bottom: 4rem;
+}
+.learn-more-text p, .footer-text p{
+    font-size: 18px;
+    width: 552px;
+    line-height: 35px;
+    margin-bottom: 3rem;
+}
+.learn-more-text a, .footer-text a{
+    font-size: 18px;
+    padding: 10px 70px;
+    background-color: #003478;
+    color: #FFFFFF;
+}
+
+/* -------------------------- footer --------------------------------- */
+
+footer{
+    background-color: #151515;
+    height: 839px;
+    margin-top: 250px;
+}
+.footer{
+    margin-top: 2rem;
+}
+.footer-background-photo{
+    margin-top: 4rem;
+}
+.footer-text{
+    color: #FFFFFF;
+}
+.footer-text h2{
+    font-size: 54px;
+}
+.footer-text h2 span{
+    font-size: 20px;
+    color: #848484;
+}
+
+.mini-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 950px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+.footer-menu a{
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social ion-icon{
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+.social ion-icon:last-child{
+    margin-right: 0px;
+}
+
+
+.footer-line{
+    width: 950px;
+    margin: auto;
+    height: 2px;
+    background-color: #2C2C2C;
+}
+
+.Copyright{
+    color:#4F4F4F;
+    text-align: center;
+    margin-top: 40px;
+}
